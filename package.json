@@ -1,0 +1,41 @@
+{
+	"name": "betoken",
+	"version": "1.0.0-beta.1",
+	"description": "BEToken creates credentials that cannot be inspected by anyone but issuer.",
+	"publishConfig": {
+		"tag": "beta"
+	},
+	"main": "main.js",
+	"engines": {
+		"node": ">=10.0.0"
+	},
+	"dependencies": {
+		"@kirick/bison": "0.2.1",
+		"base-x": "4.0.0",
+		"evilcrypt": "0.1.0"
+	},
+	"peerDependencies": {
+		"@kirick/redis-client": "^4.0.1-beta.3",
+		"lru-cache": "^7"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/kirick13/betoken.git"
+	},
+	"keywords": [
+		"betoken",
+		"token",
+		"access",
+		"credentials",
+		"jwt"
+	],
+	"author": "Daniil Kirichenko (https://twitter.com/kirickme)",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/kirick13/betoken/issues"
+	},
+	"homepage": "https://github.com/kirick13/betoken#readme"
+}
